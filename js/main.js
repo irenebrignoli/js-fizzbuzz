@@ -34,13 +34,20 @@ for (let i = 1; i <= 100; i++){
 
     console.log('buzz');
 
-  } else {
+  } else if (i % 3 == 0 && i % 5 == 0){
+
+    console.log('fizzbuzz');
+
+  } else{
 
     console.log(i);
   }
 
   
 }
+
+
+
 
 
 
